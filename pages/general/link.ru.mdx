@@ -1,0 +1,21 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+
+
+Генерирует и отправляет ссылку на игровое лобби в чат.
+
+## {getLocale("pagesSyntax", "ru")}
+<TableSyntax page="link" lang="ru" />
+## {getLocale("pagesDescription", "ru")}
+
+Генерирует и отправляет ссылку на игровое лобби в чат. Если введён параметр `description`, то сообщение будет содержать дополнительное описание ссылки.
+
+## {getLocale("pageUsageLimitations", "ru")}
+
+Если ваш аккаунт Steam не подключен при помощи команды [/connect](./connect), то будет вызвана эта команда вместо /link.
+
+## {getLocale("pagesScreenshots", "ru")}
+<Swiper page="link" lang="ru" />
+## {getLocale("pagesSeeAlso", "ru")}
+- [/connect](./connect)

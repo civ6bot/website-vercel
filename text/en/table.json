@@ -1,0 +1,23 @@
+{
+    "lang": "en",
+    "text": {
+        "tableHeaderParameter": "Parameter",
+        "tableHeaderType": "Type",
+        "tableHeaderOptional": "Optional",
+        "tableHeaderDefaultValue": "Default value",
+        "tableHeaderDescription": "Description",
+        "tableHeaderConfig": "Setting",
+        "tableHeaderBorderValue": "Border values",
+
+        "tableTypeNumber": "number",
+        "tableTypeNumbersList": "list of numbers",
+        "tableTypeString": "string",
+        "tableTypeUser": "user",
+        "tableTypeUsersList": "list of users",
+        "tableTypeBoolean": "boolean",
+        "tableTypeSubcommand": "subcommand",
+
+        "tableNoParameters": "No command parameters.",
+        "tableDefaultAuthor": "author"
+    }
+}

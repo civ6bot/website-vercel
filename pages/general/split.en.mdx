@@ -1,0 +1,39 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+import TableConfig from "components/TableConfig";
+
+
+Split players into 2 teams
+
+## {getLocale("pagesSyntax", "en")}
+<TableSyntax page="split" customCommandSyntax="/split <type> [1st-captain] ⠀|⠀ [2nd-captain] [include] [exclude] [only]" lang="en" />
+## {getLocale("pagesDescription", "en")}
+
+Creates a message with reactions, buttons and timer to split players into 2 teams. 
+
+Captains receive notifications from the bot in private messages. A captain is randomly selected to be the first to choose. Captains take turns choosing an available player using reactions until teams are formed with the maximum possible number of players in each. Selected players are recorded on the right under the nicknames of the captains. 
+
+The navigation buttons allow you to start the split again or continue from the last step if the captain did not have time to select a player in the allotted time. After successful split, bot moves the 2nd command to an available empty voice channel.
+
+The bot supports 4 types of split command, which differ in the order in which the player is selected. The types are shown in the table below. The numbers indicate the team number.
+
+| Type         | Pick order            |
+|--------------|-----------------------|
+| Classic      | 1-2-1-2-1-2-1-2 ...   |
+| CWC          | 1-2-2-1-2-1-1-2 ...   |
+| First-double | 1-2-2-1-2-1-2-1 ...   |
+| Random       | Random teams with defined captains   |
+
+## {getLocale("pageUsageLimitations", "en")}
+
+
+- From 4 to 16 users can participate in the split.
+- If two teams are captained by the same player, an error message will be returned.
+- It is assumed that you are in a public voice channel when using this command. All users present in it participate in voting by default.
+    - If you are not in a voice channel, then it will be considered that only captains participate in the vote (which will return an error). In this case, you should use the `include`, `exclude` and `only` parameters.
+
+## {getLocale("pagesConfigs", "en")}
+<TableConfig page="split" lang="en" />
+## {getLocale("pagesScreenshots", "en")}
+<Swiper page="split" lang="en" />

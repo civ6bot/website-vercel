@@ -1,0 +1,29 @@
+{
+    "lang": "en",
+    "text": {
+        "indexHeroTitle": "Civ6Bot",
+        "indexHeroDescription": "Discord bot for Civilization VI easy game",
+
+        "indexBotsGeneralTitle": "General",
+        "indexBotsGeneralDescription": "All requirements to start your game",
+        "indexBotsRatingTitle": "Rating",
+        "indexBotsRatingDescription": "Game history and tools for rating",
+        "indexBotsMiscellaneousTitle": "Miscellaneous",
+        "indexBotsMiscellaneousDescription": "Moderation commands and fun content",
+        "indexBotsInviteButtonLabel": "Invite to server",
+        "indexGetMoreLabel": "More info...",
+
+        "indexFeature1Title": "🤖 What Civ6Bot can do?",
+        "indexFeature1Description": "• All commands to setup and start your Civilization VI game: draft, team split, new game vote;\n• random and utility commands: coin, dice, vote, secret-vote;\n• rating system and game history;\n• moderation: temporary ban, mute;\n• fun content: cat and dog random images;\n\nYou can check all commands on Civ6Bot Docs.",
+        "indexFeature1ButtonLabel": "Open Civ6Bot docs",
+        "indexFeature2Title": "👨‍💻 Why Civ6Bot?",
+        "indexFeature2Description": "• Discord-friendly design — slash commands, embed messages, buttons, dialog modal windows;\n• configurable — change values, lines, roles or language for your Discord server with /config slash command;\n• up-to-date — accords to Civilization VI latest version;\n• tested by communities — 20'000+ users in 50+ communities;\n• feedback — fixing reported bugs, implementing requests and improving bots' commands;\n• free and public — click link in repository or go to bot's profile and push the button to invite it on your server!",
+        "indexFeature2ButtonLabel": "Check GitHub repository",
+        "indexFeature3Title": "❤️ How to support Civ6Bot?",
+        "indexFeature3Description": "• You can translate Civ6Bot to new language;\n• report bugs and errors;\n• donate for maintenance;\n• invite bots to your Discord server;\n• ... or just say \"thank you\"!",
+        "indexFeature3ButtonLabel": "Support page",
+        "indexFeature4Title": "📜 Have questions?",
+        "indexFeature4Description": "Ask in Civ6Bot Discord server!",
+        "indexFeature4ButtonLabel": "Join Discord server"
+    }
+}

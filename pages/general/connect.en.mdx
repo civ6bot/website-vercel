@@ -1,0 +1,29 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+import { Callout } from 'nextra/components'
+
+
+Adds your Steam account to your Discord account.
+
+## {getLocale("pagesSyntax", "en")}
+<TableSyntax page="connect" lang="en" />
+## {getLocale("pagesDescription", "en")}
+
+Adds your Steam account to your Discord account and shares this information with Civ6Bot. When you call the command, a message appears visible only to you, with an authorization button. 
+When you click the button, it takes you to a special authorization page on this website. 
+Upon success, you can use the command to [send a link to the game lobby](./link).
+
+<Callout emoji="⚠️">
+    Sometimes you can't connect your Steam account. If you are sure that you did everything correctly, then please notify the bot developer about this.
+</Callout>
+
+## Requirements
+Before connecting your Steam account, make sure you meet the following requirements:
+- your steam account connected to [Discord Connections ↗](https://support.discord.com/hc/en-us/articles/8063233404823-Connections-Linked-Roles-Community-Members);
+- your Steam profile [is visible to Public ↗](https://help.steampowered.com/en/faqs/view/588C-C67D-0251-C276) (is not private).
+
+## {getLocale("pagesScreenshots", "en")}
+<Swiper page="connect" lang="en" />
+## {getLocale("pagesSeeAlso", "en")}
+- [/link](./link)

@@ -1,0 +1,32 @@
+.swiper {
+    --swiper-navigation-color: red;
+    --swiper-theme-color: red;
+    --swiper-pagination-bullet-size: 10px;
+    --swiper-pagination-bullet-inactive-color: #888;
+    --swiper-pagination-bullet-inactive-opacity: 0.35;
+    
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.swiperSlideSpan {
+    float: left;
+    position: absolute;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 14px;
+    color: #FFFFFF;
+    font-size: 14px;
+    max-width: 75%;
+    padding: 5px 20px;
+    margin-top: 40%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}

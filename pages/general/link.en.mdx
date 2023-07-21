@@ -1,0 +1,21 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+
+
+Generate and send game lobby link to chat.
+
+## {getLocale("pagesSyntax", "en")}
+<TableSyntax page="link" lang="en" />
+## {getLocale("pagesDescription", "en")}
+
+Generate and send game lobby link to chat. If the `description` parameter is entered, then the message will contain an additional description of the link.
+
+## {getLocale("pageUsageLimitations", "en")}
+
+If your Steam account is not connected to Civ6Bot with [/connect](./connect) command, then this command will be called instead of /link.
+
+## {getLocale("pagesScreenshots", "en")}
+<Swiper page="link" lang="en" />
+## {getLocale("pagesSeeAlso", "en")}
+- [/connect](./connect)

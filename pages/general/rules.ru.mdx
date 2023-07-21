@@ -1,0 +1,24 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+
+
+Книга правил, содержащая страницы с текстом.
+
+## {getLocale("pagesSyntax", "ru")}
+<TableSyntax page="rules" lang="ru" />
+## {getLocale("pagesDescription", "ru")}
+
+Книга для правил вашего сервера. Представляет собой набор содержание и набор страниц. Страница имеет название, основной текст и теги. Переключаться между страницами можно при помощи кнопок навигации. В книге имеется встроенный поиск по страницам или тегам при помощи параметра `tag-or-page`.
+
+Администратор и модератор могут редактировать книгу: 
+- добавлять, удалять, перемещать страницы;
+- изменять заголовок и содержание страницы;
+- изменять список тегов страницы.
+
+## {getLocale("pageUsageLimitations", "ru")}
+
+Если параметр `tag-or-page` не указан или страницы с данным тегом или номером не найдено, то будет открыта страница с содержанием.
+
+## {getLocale("pagesScreenshots", "ru")}
+<Swiper page="rules" lang="ru" />

@@ -1,0 +1,19 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+
+
+Отправить отзыв разработчикам Civ6Bot.
+
+## {getLocale("pagesSyntax", "ru")}
+<TableSyntax page="feedback" lang="ru" />
+## {getLocale("pagesDescription", "ru")}
+
+Отправить отзыв разработчикам Civ6Bot. Они получат сообщение с содержанием из параметра `message`.
+
+## {getLocale("pageUsageLimitations", "ru")}
+
+- При пустом параметре `message` будет возвращено сообщение об ошибке.
+
+## {getLocale("pagesScreenshots", "ru")}
+<Swiper page="feedback" lang="ru" />

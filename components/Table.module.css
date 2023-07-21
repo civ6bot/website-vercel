@@ -1,0 +1,17 @@
+.pageTable[data-theme="dark"] > div > table > tbody > tr > td {
+    color: white !important;
+}
+
+.pageTable[data-theme="light"] > div > table > tbody > tr > td {
+    color: black !important;
+}
+
+.configLink {
+    color: #CC0000;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.configLink:hover {
+    text-decoration-thickness: 0px;
+}

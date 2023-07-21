@@ -1,0 +1,19 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+
+
+Send feedback to developers of Civ6Bot.
+
+## {getLocale("pagesSyntax", "en")}
+<TableSyntax page="feedback" lang="en" />
+## {getLocale("pagesDescription", "en")}
+
+Send feedback to developers of Civ6Bot. They will receive a message with the content from the `message` parameter.
+
+## {getLocale("pageUsageLimitations", "en")}
+
+- Empty `message` parameter value will return an error message.
+
+## {getLocale("pagesScreenshots", "en")}
+<Swiper page="feedback" lang="en" />

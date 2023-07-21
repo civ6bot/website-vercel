@@ -1,0 +1,29 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+import { Callout } from 'nextra/components'
+
+
+Добавляет аккаунт Steam к вашему аккаунту Discord.
+
+## {getLocale("pagesSyntax", "ru")}
+<TableSyntax page="connect" lang="ru" />
+## {getLocale("pagesDescription", "ru")}
+
+Добавляет аккаунт Steam к вашему аккаунту Discord и добавляет эту информацию Civ6Bot. При вызове команды появляется сообщение, видимое только для вас, с кнопкой авторизации.
+При нажатии на кнопку, вас переносит на специальную страницу авторизации на этом сайте.
+При успехе, вы сможете пользоваться [командой отправки ссылки на игровое лобби](./link).
+
+<Callout emoji="⚠️">
+    Иногда подключить аккаунт Steam не получается. Если вы уверены, что сделали всё правильно, то, пожалуйста, оповестите об этом разработчика бота.
+</Callout>
+
+## Требования для подключения
+Перед подключением аккаунта Steam, проверьте, выполнены ли следующие требования:
+- аккаунт Steam подключен в [Интеграции Discord ↗](https://support.discord.com/hc/en-us/articles/8063233404823-Connections-Linked-Roles-Community-Members);
+- профиль Steam имеет [публичный доступ ↗](https://help.steampowered.com/en/faqs/view/588C-C67D-0251-C276).
+
+## {getLocale("pagesScreenshots", "ru")}
+<Swiper page="connect" lang="ru" />
+## {getLocale("pagesSeeAlso", "ru")}
+- [/link](./link)

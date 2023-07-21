@@ -1,0 +1,24 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+import TableConfig from "components/TableConfig";
+
+
+Генерирует случайное число.
+
+## {getLocale("pagesSyntax", "ru")}
+<TableSyntax page="random" lang="ru" />
+## {getLocale("pagesDescription", "ru")}
+
+Генерирует случайное целое число от 1 до максимального числа из аргумента `max-value`.
+
+## {getLocale("pageUsageLimitations", "ru")}
+
+Если значение параметра `max-value` превышает предел из настроек, то будет возвращено сообщение об ошибке.
+
+## {getLocale("pagesConfigs", "ru")}
+<TableConfig page="random" lang="ru" />
+## {getLocale("pagesScreenshots", "ru")}
+<Swiper page="random" lang="ru" />
+## {getLocale("pagesSeeAlso", "ru")}
+- [/coin](./random)

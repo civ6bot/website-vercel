@@ -1,0 +1,85 @@
+{
+  "index": {
+    "title": "Главная",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "breadcrumb": false,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false,
+      "layout": "full"
+    }
+  },
+  "support": {
+    "title": "Поддержать проект"
+  },
+  "supportHeader": {
+    "title": "🎉 Поддержать проект",
+    "type": "page",
+    "href": "/support"
+  },
+  "privacy": {
+    "title": "Политика конфиденциальности"
+  },
+  "docsHeader": {
+    "title": "Документация",
+    "type": "menu",
+    "items": {
+      "general": {
+        "title": "General",
+        "href": "/general"
+      },
+      "rating": {
+        "title": "Rating",
+        "href": "/rating"
+      },
+      "miscellaneous": {
+        "title": "Miscellaneous",
+        "href": "/miscellaneous"
+      }
+    }
+  },
+  "--- Commands": {
+    "type": "separator",
+    "title": "Команды"
+  },
+  "common": "Общие команды",
+  "--- Separator": {
+    "type": "separator",
+    "title": ""
+  },
+  "general": {
+    "title": "General",
+    "theme": {
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "--- Separator common": {
+    "type": "separator",
+    "title": ""
+  },
+  "rating": {
+    "title": "Rating",
+    "theme": {
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "--- Separator rating": {
+    "type": "separator",
+    "title": ""
+  },
+  "miscellaneous": {
+    "title": "Miscellaneous",
+    "theme": {
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "steam": {
+    "title": "Подключение Steam",
+    "display": "hidden"
+  }
+}

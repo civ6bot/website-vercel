@@ -1,0 +1,20 @@
+{
+    "lang": "ru",
+    "text": {
+        "steamPageTitle": "Подключение Steam",
+        "steamPageWaiting": "Пожалуйста, подождите...",
+        "steamToHomePage": "На главную",
+
+        "steamTitle_success_add": "Аккаунт Steam успешно подключён!\nТеперь вы можете пользоваться командой /link.",
+        "steamTitle_success_update": "Аккаунт Steam успешно обновлён!\nТеперь вы можете пользоваться командой /link.",
+        "steamTitle_error_incorrect": "Ошибка! Неверный URL или срок действия кода истёк.",
+        "steamTitle_error_unknown": "Ошибка! Время ожидания истекло.",
+        "steamTitle_error_no_steam": "Ошибка! Ваш аккаунт Discord не имеет подключённого Steam аккаунта.",
+
+        "steamDescription_success_add": "Discord ID: [DISCORD_ID]\nSteam ID: [STEAM_ID]",
+        "steamDescription_success_update": "Discord ID: [DISCORD_ID]\nSteam ID: [STEAM_ID]",
+        "steamDescription_error_incorrect": "Попробуйте использовать команду /connect снова.",
+        "steamDescription_error_unknown": "Попробуйте позже снова или сообщите разработчику о данной проблеме.",
+        "steamDescription_error_no_steam": "Откройте Discord => Настройки => Интеграции, добавьте ваш аккаунт Steam, затем попробуйте снова."
+    }
+}

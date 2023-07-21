@@ -1,0 +1,43 @@
+{
+    "coin": {
+        "widthPercent": 70,
+        "images": ["heads.png", "tails.png"]
+    },
+    "connect": {
+        "widthPercent": 100,
+        "images": ["connect.png", "button.png", "steam_page.png"],
+        "labels": ["swiperConnectMessage", "swiperConnectButton", "swiperConnectWebsite"],
+        "ignoreLight": [2]
+    },
+    "feedback": {
+        "widthPercent": 100,
+        "images": ["message.png"]
+    },
+    "link": {
+        "widthPercent": 100,
+        "images": ["link.png"]
+    },
+    "random": {
+        "widthPercent": 100,
+        "images": ["random.png", "random2.png"]
+    },
+    "rules": {
+        "widthPercent": 70,
+        "images": ["page_main.png", "page_example.png"],
+        "labels": ["swiperRulesMain", "swiperRulesExample"]
+    },
+    "vote": {
+        "widthPercent": 100,
+        "images": ["vote.png"]
+    },
+    "vote-secret": {
+        "widthPercent": 60,
+        "images": ["vote-secret.png", "vote-secret_pm.png", "vote-secret_pm_yes.png", "vote-secret_pm_abstained_timeout.png", "vote-secret_result.png"],
+        "labels": ["swiperVoteSecretMessage", "swiperVoteSecretPm", "swiperVoteSecretPmYes", "swiperVoteSecretPmAbstained", "swiperVoteSecretResult"]
+    },
+    "split": {
+        "widthPercent": 70,
+        "images": ["split.png", "split_notification.png", "split_completed.png", "split_timeout.png"],
+        "labels": ["swiperSplitMain", "swiperSplitNotification", "swiperSplitCompleted", "swiperSplitTimeout"]
+    }
+}

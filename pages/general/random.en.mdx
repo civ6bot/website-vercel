@@ -1,0 +1,24 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+import TableConfig from "components/TableConfig";
+
+
+Generates a random number.
+
+## {getLocale("pagesSyntax", "en")}
+<TableSyntax page="random" lang="en" />
+## {getLocale("pagesDescription", "en")}
+
+Generates a random integer from 1 to the maximum number from the `max-value` parameter.
+
+## {getLocale("pageUsageLimitations", "en")}
+
+If the `max-value` parameter value exceeds the maximum value from configuration, then an error message will be returned.
+
+## {getLocale("pagesConfigs", "en")}
+<TableConfig page="random" lang="en" />
+## {getLocale("pagesScreenshots", "en")}
+<Swiper page="random" lang="en" />
+## {getLocale("pagesSeeAlso", "en")}
+- [/coin](./random)

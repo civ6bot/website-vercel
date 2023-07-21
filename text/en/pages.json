@@ -1,0 +1,12 @@
+{
+    "lang": "en",
+    "text": {
+        "pagesSyntax": "Syntax and parameters",
+        "pagesDescription": "Description",
+        "pagesConfigs": "Configuration",
+        "pageConfigsTip": "You can check configuration info on this page.",
+        "pageUsageLimitations": "Usage limitations and special cases",
+        "pagesScreenshots": "Screenshots",
+        "pagesSeeAlso": "See also"
+    }
+}

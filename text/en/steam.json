@@ -1,0 +1,20 @@
+{
+    "lang": "en",
+    "text": {
+        "steamPageTitle": "Steam connection",
+        "steamPageWaiting": "Please wait...",
+        "steamToHomePage": "To Home page",
+
+        "steamTitle_success_add": "Steam account connected successfully!\nNow you can use /link command.",
+        "steamTitle_success_update": "Steam account updated successfully!\nNow you can use /link command.",
+        "steamTitle_error_incorrect": "Error! Incorrect URL or code has expired.",
+        "steamTitle_error_unknown": "Error! Connection timeout.",
+        "steamTitle_error_no_steam": "Error! Your Discord account has not Steam account integration.",
+
+        "steamDescription_success_add": "Discord ID: [DISCORD_ID]\nSteam ID: [STEAM_ID]",
+        "steamDescription_success_update": "Discord ID: [DISCORD_ID]\nSteam ID: [STEAM_ID]",
+        "steamDescription_error_incorrect": "Use /connect command again to link Steam account to Civ6Bot.",
+        "steamDescription_error_unknown": "Try again later or notify developers about this problem.",
+        "steamDescription_error_no_steam": "Open Discord => Settings => Integrations, add your Steam account and try again."
+    }
+}

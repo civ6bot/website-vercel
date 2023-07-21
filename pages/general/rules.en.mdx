@@ -1,0 +1,24 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+
+
+A rulebook containing pages with the text of the rules.
+
+## {getLocale("pagesSyntax", "en")}
+<TableSyntax page="rules" lang="en" />
+## {getLocale("pagesDescription", "en")}
+
+Book for the rules of your server. It is a set of content and a set of pages. The page has a title, body text, and tags. You can switch between pages using the navigation buttons. The book has a built-in search for pages or tags using the `tag-or-page` parameter.
+
+The administrator and moderator can edit the book:
+- add, delete, move pages;
+- change the title and content of the page;
+- change the list of page tags.
+
+## {getLocale("pageUsageLimitations", "en")}
+
+If the `tag-or-page` parameter is not specified, or no page with the given tag or page number is found, then the list of pages will be opened.
+
+## {getLocale("pagesScreenshots", "en")}
+<Swiper page="rules" lang="en" />

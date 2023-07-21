@@ -1,0 +1,18 @@
+{
+    "lang": "en",
+    "text": {
+        "parametersInclude": "Include users to this command",
+        "parametersExclude": "Exclude users from this command",
+        "parametersOnly": "Set users from this list only",
+
+        "parametersFeedbackMessageDescription": "Content of feedback message",
+        "parametersLinkDescription": "Additional description of the link",
+        "parametersRandomMaxValue": "Upper bound of random number",
+        "parametersRulesTagOrPage": "Tag or page number",
+        "parametersVoteText": "Content of voting message",
+
+        "parametersSplitType": "Type of split: classic, CWC, first-double, random",
+        "parametersSplit1stCaptain": "Captain of a team",
+        "parametersSplit2ndCaptain": "Another captain of a team (author by default)"
+    }
+}

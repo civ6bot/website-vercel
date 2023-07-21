@@ -1,0 +1,20 @@
+.featureContentImage{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.featureContentImageInner{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .featureContentImage {
+        display: none;
+    }
+}

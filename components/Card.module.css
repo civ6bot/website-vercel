@@ -1,0 +1,37 @@
+.card {
+    flex: 1 1 30%;
+    min-width: 350px;
+    margin: 10px 10px 50px 10px;
+    height: auto;
+    text-align: center;
+}
+
+.cardImage {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
+
+.cardTitle {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cardDescription {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardGetMoreLink:link {
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.cardGetMoreLink:hover {
+    color: "#AA0000";
+    text-decoration: underline;
+    cursor: pointer;
+}

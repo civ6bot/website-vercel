@@ -1,0 +1,18 @@
+import TableSyntax from "components/TableSyntax";
+import Swiper from "components/Swiper";
+import getLocale from "text/getLocale";
+import TableConfig from "components/TableConfig";
+
+
+Создаёт сообщение с голосованием.
+
+## {getLocale("pagesSyntax", "ru")}
+<TableSyntax page="vote" lang="ru" />
+## {getLocale("pagesDescription", "ru")}
+
+Создаёт в чате сообщение с голосованием и реакции для ответов "да" (галочка) и "нет" (крестик). Любые пользователи сервера могут отреагировать на это сообщение.
+
+## {getLocale("pagesScreenshots", "ru")}
+<Swiper page="vote" lang="ru" />
+## {getLocale("pagesSeeAlso", "ru")}
+- [/vote-secret](./vote-secret)

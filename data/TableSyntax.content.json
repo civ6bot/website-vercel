@@ -1,0 +1,103 @@
+{
+    "coin": [],
+    "connect": [],
+    "feedback": [
+        {
+            "parameter": "message", 
+            "type": "tableTypeString", 
+            "description": "parametersFeedbackMessageDescription"
+        }
+    ],
+    "link": [
+        {
+            "parameter": "description", 
+            "type": "tableTypeString", 
+            "defaultValue": "—", 
+            "description": "parametersLinkDescription"
+        }
+    ],
+    "random": [
+        {
+            "parameter": "max-value", 
+            "type": "tableTypeNumber", 
+            "defaultValue": "6", 
+            "description": "parametersRandomMaxValue"
+        }
+    ],
+    "rules": [
+        {
+            "parameter": "tag-or-page",
+            "type": "tableTypeString",
+            "defaultValue": "—",
+            "description": "parametersRulesTagOrPage"
+        }
+    ],
+    "vote": [
+        {
+            "parameter": "vote-text",
+            "type": "tableTypeString",
+            "description": "parametersVoteText"
+        }
+    ],
+    "vote-secret": [
+        {
+            "parameter": "vote-text",
+            "type": "tableTypeString",
+            "description": "parametersVoteText"
+        },
+        {
+            "parameter": "include",
+            "type": "tableTypeUsersList",
+            "defaultValue": "—",
+            "description": "parametersInclude"
+        },
+        {
+            "parameter": "exclude",
+            "type": "tableTypeUsersList",
+            "defaultValue": "—",
+            "description": "parametersExclude"
+        },
+        {
+            "parameter": "only",
+            "type": "tableTypeUsersList",
+            "defaultValue": "—",
+            "description": "parametersOnly"
+        }
+    ],
+    "split": [
+        {
+            "parameter": "type",
+            "type": "tableTypeSubcommand",
+            "description": "parametersSplitType"
+        },
+        {
+            "parameter": "1st-captain",
+            "type": "tableTypeUser",
+            "description": "parametersSplit1stCaptain"
+        },
+        {
+            "parameter": "2nd-captain",
+            "type": "tableTypeUser",
+            "defaultValue": "tableDefaultAuthor",
+            "description": "parametersSplit2ndCaptain"
+        },
+        {
+            "parameter": "include",
+            "type": "tableTypeUsersList",
+            "defaultValue": "—",
+            "description": "parametersInclude"
+        },
+        {
+            "parameter": "exclude",
+            "type": "tableTypeUsersList",
+            "defaultValue": "—",
+            "description": "parametersExclude"
+        },
+        {
+            "parameter": "only",
+            "type": "tableTypeUsersList",
+            "defaultValue": "—",
+            "description": "parametersOnly"
+        }
+    ]
+}

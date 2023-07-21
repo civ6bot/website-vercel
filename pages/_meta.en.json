@@ -1,0 +1,85 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "breadcrumb": false,
+      "sidebar": false,
+      "toc": false,
+      "pagination": false,
+      "layout": "full"
+    }
+  },
+  "support": {
+    "title": "Support project"
+  },
+  "supportHeader": {
+    "title": "🎉 Support project",
+    "type": "page",
+    "href": "/support"
+  },
+  "privacy": {
+    "title": "Privacy policy"
+  },
+  "docsHeader": {
+    "title": "Docs",
+    "type": "menu",
+    "items": {
+      "general": {
+        "title": "General",
+        "href": "/general"
+      },
+      "rating": {
+        "title": "Rating",
+        "href": "/rating"
+      },
+      "miscellaneous": {
+        "title": "Miscellaneous",
+        "href": "/miscellaneous"
+      }
+    }
+  },
+  "--- Commands": {
+    "type": "separator",
+    "title": "Commands"
+  },
+  "common": "Common commands",
+  "--- Separator common": {
+    "type": "separator",
+    "title": ""
+  },
+  "general": {
+    "title": "General",
+    "theme": {
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "--- Separator general": {
+    "type": "separator",
+    "title": ""
+  },
+  "rating": {
+    "title": "Rating",
+    "theme": {
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "--- Separator rating": {
+    "type": "separator",
+    "title": ""
+  },
+  "miscellaneous": {
+    "title": "Miscellaneous",
+    "theme": {
+      "toc": false,
+      "pagination": false
+    }
+  },
+  "steam": {
+    "title": "Подключение Steam",
+    "display": "hidden"
+  }
+}

@@ -1,0 +1,51 @@
+.steamWindowBackground {
+    width: 100%;
+    height: 100vh;
+    background-size: 166%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../public/steam/steam-neon.jpg");
+
+    justify-content: center;
+    align-items: center;
+}
+
+.steamWindowColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.steamWindowIcon {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.steamWindowTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #fbfbfb;
+    font-family: ui-sans-serif,system-ui,-apple-system;
+    text-align: center;
+}
+
+.steamWindowSubtitle {
+    font-size: 2rem;
+    color: #fbfbfb;
+    font-family: ui-sans-serif,system-ui,-apple-system;
+    text-align: center;
+}
+
+.steamWindowSeparator {
+    font-size: 1rem;
+    color: #fbfbfb;
+    font-family: ui-sans-serif,system-ui,-apple-system;
+    margin-top: 1rem;
+}
+
+.steamWindowDescription {
+    font-size: 1rem;
+    color: #fbfbfb;
+    font-family: ui-sans-serif,system-ui,-apple-system;
+    text-align: center;
+}

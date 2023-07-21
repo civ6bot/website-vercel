@@ -1,0 +1,21 @@
+{
+    "lang": "en",
+    "text": {
+        "swiperConnectMessage": "Discord message",
+        "swiperConnectButton": "Providing access",
+        "swiperConnectWebsite": "Steam connection page",
+        "swiperRulesMain": "List of pages",
+        "swiperRulesExample": "Page example",
+
+        "swiperVoteSecretMessage": "Vote-secret message",
+        "swiperVoteSecretPm": "Vote-secret personal message",
+        "swiperVoteSecretPmYes": "\"Yes\" option selected",
+        "swiperVoteSecretPmAbstained": "Timeout",
+        "swiperVoteSecretResult": "Voting result",
+
+        "swiperSplitMain": "Split example",
+        "swiperSplitNotification": "Personal message notification",
+        "swiperSplitCompleted": "Split result",
+        "swiperSplitTimeout": "Timeout"
+    }
+}

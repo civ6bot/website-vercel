@@ -1,0 +1,21 @@
+{
+    "lang": "ru",
+    "text": {
+        "swiperConnectMessage": "Сообщение в Discord",
+        "swiperConnectButton": "Предоставление доступа",
+        "swiperConnectWebsite": "Страница подключения Steam",
+        "swiperRulesMain": "Содержание",
+        "swiperRulesExample": "Пример страницы",
+
+        "swiperVoteSecretMessage": "Сообщение",
+        "swiperVoteSecretPm": "Личное сообщение с вариантами ответа",
+        "swiperVoteSecretPmYes": "Выбран вариант ответа \"Да\"",
+        "swiperVoteSecretPmAbstained": "Время вышло",
+        "swiperVoteSecretResult": "Результат голосования",
+
+        "swiperSplitMain": "Пример разделения на команды",
+        "swiperSplitNotification": "Личное сообщение",
+        "swiperSplitCompleted": "Результат разделения",
+        "swiperSplitTimeout": "Время вышло"
+    }
+}

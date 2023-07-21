@@ -1,0 +1,18 @@
+{
+    "lang": "ru",
+    "text": {
+        "parametersInclude": "Добавить пользователей",
+        "parametersExclude": "Удалить пользователей",
+        "parametersOnly": "Назначить пользователей только из этого списка",
+
+        "parametersFeedbackMessageDescription": "Содержание сообщения",
+        "parametersLinkDescription": "Дополнительное описание ссылки",
+        "parametersRandomMaxValue": "Верхняя граница случайного числа",
+        "parametersRulesTagOrPage": "Тег или номер страницы",
+        "parametersVoteText": "Содержание голосования",
+
+        "parametersSplitType": "Тип разделение на команды: classic, CWC, first-double, random",
+        "parametersSplit1stCaptain": "Капитан одной из команд",
+        "parametersSplit2ndCaptain": "Другой капитан одной из команд (автор по умолчанию)"
+    }
+}

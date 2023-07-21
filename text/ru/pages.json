@@ -1,0 +1,12 @@
+{
+    "lang": "ru",
+    "text": {
+        "pagesSyntax": "Синтаксис и параметры",
+        "pagesDescription": "Описание",
+        "pagesConfigs": "Настройки",
+        "pageConfigsTip": "Вы можете посмотреть подробнее о настройках на этой странице.",
+        "pageUsageLimitations": "Ограничения и особые случаи",
+        "pagesScreenshots": "Скриншоты",
+        "pagesSeeAlso": "См. также"
+    }
+}

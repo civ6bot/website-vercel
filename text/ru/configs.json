@@ -1,0 +1,104 @@
+{
+    "lang": "ru",
+    "text": {
+        "DYNAMIC_CONFIG_CATEGORY_MISCELLANEOUS": "Разное",
+        "DYNAMIC_CONFIG_SETTING_MISCELLANEOUS_RANDOM_MAX": "Максимум случайного числа",
+        "DYNAMIC_CONFIG_SETTING_MISCELLANEOUS_SECRET_VOTE_TIME_MS": "Время на закрытое голосование, секунд",
+        "DYNAMIC_CONFIG_SETTING_MISCELLANEOUS_SECRET_VOTE_ABSTAINED": "Добавить вариант \"воздержался\"",
+
+        "DYNAMIC_CONFIG_LANGUAGE": "Выбор языка",
+
+        "DYNAMIC_CONFIG_MODERATION": "Модерация",
+        "DYNAMIC_CONFIG_MODERATION_ROLE_MODERATORS_ID": "Роли модераторов для настроек (ID)",
+
+        "DYNAMIC_CONFIG_CATEGORY_SPLIT": "Разделение на команды",
+        "DYNAMIC_CONFIG_SETTING_SPLIT_TIME": "Время на выбор игрока, секунд",
+        "DYNAMIC_CONFIG_SETTING_SPLIT_SEND_PM_NOTIFICATION": "Уведомление в ЛС",
+        "DYNAMIC_CONFIG_SETTING_SPLIT_MOVE_TEAM_VOICE": "Перемещать другую команду",
+
+
+
+        "DYNAMIC_CONFIG_CATEGORY_DRAFT": "Драфт",
+        "DYNAMIC_CONFIG_SUBCATEGORY_DRAFT_CIVILIZATIONS": "Управление пулом цивилизаций",
+        "DYNAMIC_CONFIG_SUBCATEGORY_DRAFT_EMOJIS": "Эмодзи цивилизаций",
+        "DYNAMIC_CONFIG_SUBCATEGORY_DRAFT_FFA": "Драфт FFA",
+        "DYNAMIC_CONFIG_SUBCATEGORY_DRAFT_TEAMERS": "Драфт Teamers",
+        "DYNAMIC_CONFIG_SUBCATEGORY_DRAFT_BLIND": "Драфт взакрытую",
+        "DYNAMIC_CONFIG_SUBCATEGORY_DRAFT_REDRAFT": "Редрафт",
+
+
+
+        "DYNAMIC_CONFIG_SETTING_DRAFT_FFA_MIN_CIVILIZATIONS_DEFAULT": "Минимум цивилизаций в драфте",
+        "DYNAMIC_CONFIG_SETTING_DRAFT_FFA_MAX_CIVILIZATIONS_DEFAULT": "Максимум цивилизаций в драфте",
+
+        "DYNAMIC_CONFIG_SETTING_DRAFT_TEAMERS_FORBIDDEN_PAIRS": "Запрещенные пары для одной команды",
+
+        "DYNAMIC_CONFIG_SETTING_DRAFT_BLIND_MIN_CIVILIZATIONS_DEFAULT": "Минимум цивилизаций в драфте",
+        "DYNAMIC_CONFIG_SETTING_DRAFT_BLIND_MAX_CIVILIZATIONS_DEFAULT": "Максимум цивилизаций в драфте",
+        "DYNAMIC_CONFIG_SETTING_DRAFT_BLIND_TIME": "Время на выбор цивилизации, секунд",
+
+        "DYNAMIC_CONFIG_SETTING_DRAFT_REDRAFT_FFA_THRESHOLD_PERCENT": "% игроков на 1-ый редрафт FFA",
+        "DYNAMIC_CONFIG_SETTING_DRAFT_REDRAFT_TEAMERS_THRESHOLD_PERCENT": "% игроков на 1-ый редрафт Teamers",
+        "DYNAMIC_CONFIG_SETTING_DRAFT_REDRAFT_BLIND_THRESHOLD_PERCENT": "% игроков на 1-ый редрафт взакрытую",
+        "DYNAMIC_CONFIG_SETTING_DRAFT_REDRAFT_TIME": "Время на принятие решения, секунд",
+        "DYNAMIC_CONFIG_SETTING_DRAFT_REDRAFT_NOTIFY_PM": "Прислать сообщение в ЛС",
+
+
+
+        "DYNAMIC_CONFIG_CATEGORY_GAME": "Голосование за настройки",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_GENERAL": "Общие настройки голосования",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA": "Голосование FFA",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS": "Голосование Teamers",
+
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_GENERAL_TIME": "Время на голосование, секунд",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_GENERAL_THREAD": "Создавать ветку для голосования",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_GENERAL_SEND_PM_NOTIFICATION": "Уведомление о голосовании в ЛС",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_GENERAL_MOVE_TO_VOICE_CHANNELS": "Перемещать игроков при голосовании",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_GENERAL_FFA_HOME_VOICE_CHANNELS": "Из каких каналов перемещать, FFA (ID)",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_GENERAL_FFA_VOICE_CHANNELS": "Голосовые каналы для FFA (ID)",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_GENERAL_TEAMERS_HOME_VOICE_CHANNELS": "Из каких каналов перемещать, Teamers (ID)",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_GENERAL_TEAMERS_VOICE_CHANNELS": "Голосовые каналы для Teamers (ID)",
+
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_ADD": "Добавить в голосование за настройки",
+
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_MAP": "Карта",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_DISASTERS": "Стихийные бедствия",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_BONUS_RESOURCES": "Бонусные ресурсы",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_STRATEGIC_RESOURCES": "Стратегические ресурсы",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_WONDERS": "Количество чудес природы",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_AGE": "Возраст мира",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_RIDGES_DEFINITION": "Горные хребты",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_CITY_CENTER": "Дополнительный доход центров городов",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_THERMONUCLEAR_DEVICE": "Термоядерные устройства",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_GREAT_PEOPLE_PASS": "Отказ от Великих людей",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_MONOPOLY": "Режим \"Монополии и Корпорации\"",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_BARBARIAN_CLANS": "Режим \"Варварские кланы\"",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_SHUFFLE": "Режим \"Случайные тех. и соц. институты\"",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_SECRET_SOCIETIES": "Режим \"Тайные сообщества\"",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_ZOMBIE": "Режим \"Защита от зомби\"",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_GOLD_TRADING": "Торговля золотом",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_STRATEGIC_TRADING": "Торговля стратегическими ресурсами",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_FRIENDS": "Число дружб",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_MILITARY_ALLIANCE": "Военный союз",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_CHATTING": "Общение",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_DRAFT": "Тип драфта",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_FFA_BANS_THRESHOLD": "Пороговое значение для бана",
+
+        "DYNAMIC_CONFIG_SETTING_GAME_FFA_BANS_THRESHOLD": "Пороговое значение для бана, %",
+
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_MAP": "Карта",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_DISASTERS": "Стихийные бедствия",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_BONUS_RESOURCES": "Бонусные ресурсы",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_STRATEGIC_RESOURCES": "Стратегические ресурсы",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_WONDERS": "Количество чудес природы",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_AGE": "Возраст мира",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_RIDGES_DEFINITION": "Горные хребты",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_CITY_CENTER": "Дополнительный доход центров городов",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_RELIC": "Торговля реликвиями",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_REMAPS": "Ремапы (на 8 ходу)",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_SPLIT": "Способ разделения на команды",
+        "DYNAMIC_CONFIG_SUBCATEGORY_GAME_TEAMERS_BANS_THRESHOLD": "Пороговое значение для бана",
+
+        "DYNAMIC_CONFIG_SETTING_GAME_TEAMERS_BANS_THRESHOLD": "Пороговое значение для бана, %"
+    }
+}

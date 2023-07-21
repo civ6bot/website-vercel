@@ -1,0 +1,59 @@
+{
+    "random": [
+        {
+            "config": [
+                "DYNAMIC_CONFIG_CATEGORY_MISCELLANEOUS",
+                "DYNAMIC_CONFIG_SETTING_MISCELLANEOUS_RANDOM_MAX"
+            ], 
+            "type": "tableTypeNumber", 
+            "defaultValue": "100",
+            "borderValue": "2 ... 1'000'000"
+        }
+    ],
+    "vote-secret": [
+        {
+            "config": [
+                "DYNAMIC_CONFIG_CATEGORY_MISCELLANEOUS",
+                "DYNAMIC_CONFIG_SETTING_MISCELLANEOUS_SECRET_VOTE_TIME_MS"
+            ],
+            "type": "tableTypeNumber",
+            "defaultValue": "60",
+            "borderValue": "10 ... 900"
+        },
+        {
+            "config": [
+                "DYNAMIC_CONFIG_CATEGORY_MISCELLANEOUS",
+                "DYNAMIC_CONFIG_SETTING_MISCELLANEOUS_SECRET_VOTE_ABSTAINED"
+            ],
+            "type": "tableTypeBoolean",
+            "defaultValue": "✔️"
+        }
+    ],
+    "split": [
+        {
+            "config": [
+                "DYNAMIC_CONFIG_CATEGORY_SPLIT",
+                "DYNAMIC_CONFIG_SETTING_SPLIT_TIME"
+            ],
+            "type": "tableTypeNumber",
+            "defaultValue": "45",
+            "borderValue": "10 ... 900"
+        },
+        {
+            "config": [
+                "DYNAMIC_CONFIG_CATEGORY_SPLIT",
+                "DYNAMIC_CONFIG_SETTING_SPLIT_SEND_PM_NOTIFICATION"
+            ],
+            "type": "tableTypeBoolean",
+            "defaultValue": "✔️"
+        },
+        {
+            "config": [
+                "DYNAMIC_CONFIG_CATEGORY_SPLIT",
+                "DYNAMIC_CONFIG_SETTING_SPLIT_MOVE_TEAM_VOICE"
+            ],
+            "type": "tableTypeBoolean",
+            "defaultValue": "✔️"
+        }
+    ]
+}

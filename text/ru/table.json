@@ -1,0 +1,23 @@
+{
+    "lang": "ru",
+    "text": {
+        "tableHeaderParameter": "Параметр",
+        "tableHeaderType": "Тип",
+        "tableHeaderOptional": "Опционален",
+        "tableHeaderDefaultValue": "Значение по умолчанию",
+        "tableHeaderDescription": "Описание",
+        "tableHeaderConfig": "Настройка",
+        "tableHeaderBorderValue": "Допустимые значения",
+
+        "tableTypeNumber": "число",
+        "tableTypeNumbersList": "список чисел",
+        "tableTypeString": "строка",
+        "tableTypeUser": "пользователь",
+        "tableTypeUsersList": "список пользователей",
+        "tableTypeBoolean": "булево",
+        "tableTypeSubcommand": "подкоманда",
+
+        "tableNoParameters": "Нет параметров команды.",
+        "tableDefaultAuthor": "автор"
+    }
+}

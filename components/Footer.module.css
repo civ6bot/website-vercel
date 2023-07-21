@@ -1,0 +1,26 @@
+.footerOuter {
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid #88888844;
+}
+
+.footerColumns {
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.footerLink {
+    color: #A02222;
+    cursor: pointer;
+}
